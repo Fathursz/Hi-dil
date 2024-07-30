@@ -7,28 +7,109 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>Flowers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('ayang.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .greetings {
+            margin: 50px 0;
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 0.2rem;
+            color: #fff;
+        }
+        .greetings span {
+            display: inline-block;
+            padding: 0 5px;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .greetings span:hover {
+            transform: scale(1.2);
+            color: #f36f6f;
+        }
+        .description {
+            margin: 20px 0;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #fff;
+        }
+        .button {
+            margin: 20px 0;
+        }
+        .button a {
+            text-decoration: none;
+            color: white;
+        }
+        .button button {
+            background-color: #87CEFA;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button button:hover {
+            background-color: #4682B4;
+        }
+        
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .greetings {
+                font-size: 1.5rem;
+            }
+            .description {
+                font-size: 1rem;
+            }
+            .button button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .greetings {
+                font-size: 1.2rem;
+            }
+            .description {
+                font-size: 0.9rem;
+            }
+            .button button {
+                padding: 10px 15px;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="greetings">
-    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
-        <span>H</span>
         <span>A</span>
-        <span>L</span>
-        <span>L</span>
-        <span>O</span>
+        <span>F</span>
+        <span>N</span>
+        <span>I</span>
+        <span> </span>
+        <span>S</span>
+        <span>A</span>
+        <span>Y</span>
+        <span>A</span>
+        <span>N</span>
+        <span>G</span>
         <span>K</span>
-        <span>A</span>
-        <span>M</span>
         <span>U</span>
     </div>
     <div class="description">
-        <span>Aku punya hadiah spesial buat kamu nih....</span>
+        <span>Ada hadiah spesial untuk kita sayangkuu....</span>
     </div>
     <div class="button">
-        <button>
-            <a href="flower.html">Klik disini</a>
-        </button>
-        
+        <a href="flower.html">
+            <button>Klik mki disini</button>
+        </a>
     </div>
 </body>
 </html>
